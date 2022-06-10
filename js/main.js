@@ -15,21 +15,24 @@ while (entrada != "ESC") {
     console.log("la lista es: " + entrada );
     entrada = prompt("ingresa la lista del super \n Para salir ingresa ESC");
 }*/
+
 //Ejercicio 2
-let precioProducto = parseFloat(prompt("ingrese el precio del producto"));
+/*let precioProducto = parseFloat(prompt("ingrese el precio del producto"));
 //Aqui el usuario va a poner el precio del producto a calcular incluyendo el iva
+
 while(true){
     if(!isNaN(precioProducto) && precioProducto != null && precioProducto != ""){
     break;
-    }else{
+    }
+    else{
         //esto se ejecuta si el usuario no ingresa un numero
         alert('no es numero');
         continue;
     }
 }
-    precioProductoM = precioProducto.toFixed(2);
-    alert("el precio del producto es: " + precioProductoM);
-    console.log("el precio del producto es: " + precioProductoM);
+    
+    alert("el precio del producto es: " + precioProducto.toFixed(2));
+    console.log("el precio del producto es: " + precioProducto.toFixed(2));
 
     //Sumar el IVA al producto
     function sumarIva(precioProducto){
@@ -37,18 +40,27 @@ while(true){
     }
 
     let iva = sumarIva(precioProducto);
-    ivaM = iva.toFixed(2);
 
-    alert("el IVA es: " + ivaM);
-    console.log("el IVA es: " + ivaM);
+    alert("el IVA es: " + iva.toFixed(2));
+    console.log("el IVA es: " + iva.toFixed(2));
 
     //Sumar el precio del producto con el iva
     function sumarPrecio(precioProducto, iva){
-    return (precioProducto * 0.21 + precioProducto)
+        return precioProducto+iva
     }
     let precioTotal = sumarPrecio(precioProducto, iva);
-    precioTotalM = precioTotal.toFixed(2);
-
-    alert("el precio total es: " + precioTotalM);
-    console.log("el precio total es: " + precioTotalM);
-
+    alert("el precio total es: " + precioTotal.toFixed(2));
+    console.log("el precio total es: " + precioTotal.toFixed(2));
+*/
+//Desafio complementario Arrays
+//Lista de los Productos que tenemos
+const listaStock =["zapas nike", "bolso Yagmour", "pantalon Yagmour", "camisa Yagmour", "zapas adidas", "bolso adidas", "pantalon adidas", "camisa adidas"];
+console.log(listaStock);
+//Stock que llego del proveedor
+console.log("Stock nuevo ingresado");
+listaStock.push("collar Yagmour","zapatillas Kevingston","bufanda Yagmour");
+console.log(listaStock);
+//Stock que no queda en el almacen
+console.log("Stock que no queda en el almacen");
+listaStock.splice(0,3);
+console.log(listaStock);

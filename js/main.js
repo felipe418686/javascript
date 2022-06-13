@@ -53,16 +53,57 @@ while(true){
     console.log("el precio total es: " + precioTotal.toFixed(2));
 */
 //Desafio complementario Arrays
-//Lista de los Productos que tenemos
-console.log("Lista de los Productos que tenemos");
-const listaStock =["zapas nike", "bolso Yagmour", "pantalon Yagmour", "camisa Yagmour", "zapas adidas", "bolso adidas", "pantalon adidas", "camisa adidas"];
-console.log(listaStock);
-//Stock que llego del proveedor
-console.log("Stock nuevo ingresado mas el stock anterior");
-listaStock.push("collar Yagmour","zapatillas Kevingston","bufanda Yagmour");
-console.log(listaStock);
-//Stock que no queda en el almacen
-console.log("Stock que no queda en el almacen");
-listaStock.splice(0,7);
-console.log(listaStock);
+//ejercicio 3
 
+/*let listaCompra = ["dulce de leche", "azucar", "fruta", "pescado"]
+let cantidades=[3,10,5,2]
+let registroEntradas = [true,true,true,true,true,false,false,true,true]*/
+
+//OBJETOS
+let cliente = {
+    nombre: "Juan",
+    apellido: "Perez",
+    direcion: "calle Avenida Honorio  1233",
+    ciudad: "Cali",
+    factura: 23000,
+    facturasPendientes: true,
+    empleados:["Roman", "Carlos","Julian"]
+}
+//ARREGLO DE OBJETOS
+/*let arreglo = [{},{},{}]
+const topTresJugadoresFutbol =[{
+    ranking:1,
+    nombre:"Messi",
+    equipo:"Barcelona",
+    pais:"Argentina"
+},{
+    ranking:2,
+    nombre:"Neymar",
+    equipo:"Paris Saint-Germain",
+    pais:"Brasil"
+},{
+    ranking:3,
+    nombre:"Cristiano Ronaldo",
+    equipo:"Juventus",
+    pais:"Portugal"
+}]*/
+console.log(cliente);
+console.log(cliente.empleados[2]);
+//ACCESOS
+let messi ={
+    nombre: "Messi",
+    equipo: "Barcelona",
+    pais: "Argentina",
+    ranking: 1,
+    edad: 30,
+    goles: 100,
+    activo: true,
+    estaTemporadaResultado:{
+        equiposDerrotados: ["PSG", "Real Madrid", "Manchester City"],
+        finals:20,
+        goles: 100
+    },
+    apodo: ["pulga"]
+}
+//cual fue el 2to equipo que derroto Messi
+console.log(messi.estaTemporadaResultado.equiposDerrotados[1]);

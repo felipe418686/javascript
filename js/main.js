@@ -54,13 +54,15 @@ while(true){
 */
 //Desafio complementario Arrays
 //Lista de los Productos que tenemos
+console.log("Lista de los Productos que tenemos");
 const listaStock =["zapas nike", "bolso Yagmour", "pantalon Yagmour", "camisa Yagmour", "zapas adidas", "bolso adidas", "pantalon adidas", "camisa adidas"];
 console.log(listaStock);
 //Stock que llego del proveedor
-console.log("Stock nuevo ingresado");
+console.log("Stock nuevo ingresado mas el stock anterior");
 listaStock.push("collar Yagmour","zapatillas Kevingston","bufanda Yagmour");
 console.log(listaStock);
 //Stock que no queda en el almacen
 console.log("Stock que no queda en el almacen");
-listaStock.splice(0,3);
+listaStock.splice(0,7);
 console.log(listaStock);
+

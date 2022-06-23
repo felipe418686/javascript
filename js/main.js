@@ -1,5 +1,5 @@
 //carrito de compra
-let carrito = [];
+/*let carrito = [];
 let producto = prompt("ingrese el producto a agregar al carrito");
 while (producto != "") {
     carrito.push(producto);
@@ -33,9 +33,16 @@ console.log("el precio total es: " + precioTotal.toFixed(2));
 let iva = precioTotal * 0.21;
 console.log("el IVA es: " + iva.toFixed(2));
 let precioTotalIva = precioTotal + iva;
-console.log("el precio total con el iva es: " + precioTotalIva.toFixed(2));
+console.log("el precio total con el iva es: " + precioTotalIva.toFixed(2));*/
 
+//agregando Eventos
+//Esto esta en la pagina de contacto
 
+let miFormulario = document.getElementById("formulario");
+miFormulario.addEventListener("submit", ValidarFormulario);
 
-
-
+function ValidarFormulario(e){
+    e.preventDefault();
+    alert("Su consulta fue enviada con exito");
+    console.log(e);
+}

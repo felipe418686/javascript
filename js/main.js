@@ -1,32 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    // Variables
-    const baseDeDatos = [
-        {
-            id: 1,
-            nombre: 'Zapatillas',
-            precio: 7000,
-            imagen: '/assets/imgg/zapas.jpg'
-        },
-        {
-            id: 2,
-            nombre: 'Gorro ',
-            precio: 1000,
-            imagen: '/assets/imgg/adulto.jpg'
-        },
-        {
-            id: 3,
-            nombre: 'Vestido',
-            precio: 5000,
-            imagen: '/assets/imgg/woman.jpg'
-        },
-        {
-            id: 4,
-            nombre: 'Remera ',
-            precio: 1500,
-            imagen: '/assets/imgg/hombre/hombre3.jpg'
-        }
-    ];
     let carrito = [];
     const divisa = '$';
     const DOMitems = document.querySelector('#items');
@@ -61,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Boton 
             const miNodoBoton = document.createElement('button');
             miNodoBoton.classList.add('btn', 'btn-primary');
-            miNodoBoton.textContent = '+';
+            miNodoBoton.textContent = 'Agregar al Carrito';
             miNodoBoton.setAttribute('marcador', info.id);
             miNodoBoton.addEventListener('click', anyadirProductoAlCarrito);
             // Insertamos

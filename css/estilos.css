@@ -4,7 +4,6 @@
   padding: 0%;
   margin: 0%;
 }
-
 html, body {
   height: 100%;
 }
@@ -249,13 +248,13 @@ textarea {
   max-width: 100%;
 }
 
-#boton {
+#enviar {
   background: #31384A;
   color: #fff;
   padding: 20px;
 }
 
-#boton:hover {
+#enviar:hover {
   cursor: pointer;
 }
 

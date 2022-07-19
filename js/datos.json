@@ -1,44 +1,38 @@
 [
     {
-        "id":1,
-        "nombre":"Sueter",
-        "comprar":"Sumar al carrito",
-        "precio":7000,
-        "imagen":"./assets/imgg/mujer/pandora1.jpg"
+        "Id":1,
+        "Nombre":"Sueter ",
+        "Precio":7000,
+        "Foto":"./assets/imgg/mujer/pandora1.jpg"
     },
     {
-        "id":2,
-        "nombre":"Abrigo",
-        "comprar":"Sumar al carrito",
-        "precio":6000,
-        "imagen":"./assets/imgg/mujer/pandora2.jpg"
+        "Id":2,
+        "Nombre":"Abrigo",
+        "Precio":6000,
+        "Foto":"./assets/imgg/mujer/pandora2.jpg"
     },
     {
-        "id":3,
-        "nombre":"Sueter",
-        "comprar":"Sumar al carrito",
-        "precio":5000,
-        "imagen":"./assets/imgg/mujer/pandora3.jpg"
+        "Id":3,
+        "Nombre":"Sueter",
+        "Precio":5000,
+        "Foto":"./assets/imgg/mujer/pandora3.jpg"
     },
     {
-        "id":4,
-        "nombre":"Sueter",
-        "comprar":"Sumar al carrito",
-        "precio":5000,
-        "imagen":"./assets/imgg/mujer/pandora4.jpg"
+        "Id":4,
+        "Nombre":"Sueter",
+        "Precio":5000,
+        "Foto":"./assets/imgg/mujer/pandora4.jpg"
     },
     {
-        "id":5,
-        "nombre":"Campera",
-        "comprar":"Sumar al carrito",
-        "precio":5000,
-        "imagen":"./assets/imgg/mujer/campe1.jpg"
+        "Id":5,
+        "Nombre":"Campera",
+        "Precio":5000,
+        "Foto":"./assets/imgg/mujer/campe1.jpg"
     },
     {
-        "id":6,
-        "nombre":"Campera",
-        "comprar":"Sumar al carrito",
-        "precio":1500,
-        "imagen":"./assets/imgg/mujer/campe2.jpg"
+        "Id":6,
+        "Nombre":"Campera",
+        "Precio":1500,
+        "Foto":"./assets/imgg/mujer/campe2.jpg"
     }
 ]

@@ -7,6 +7,11 @@
 html, body {
   height: 100%;
 }
+/* aca esta lo agregado */
+#fotoProducto{
+  width: 250px;
+  height: 250px;
+}
 
 body {
   position: relative;
@@ -141,21 +146,15 @@ h3 {
 * {
   box-sizing: border-box;
 }
-
-.foto-imagenes {
+/* agregado de js */
+#productos {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.foto-imagenes img {
-  height: 250px;
-  width: 350px;
-  transform: scale(1);
-  transition: transform 0.4s ease;
-  /* transform: rotate(50deg); */
-}
+
 
 .img-box {
   height: 250px;

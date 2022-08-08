@@ -1,5 +1,5 @@
 // Variables
-/*const baseDeDatos = [
+const baseDeDatos = [
     {
         id: 1,
         nombre: 'Sueter',
@@ -36,4 +36,4 @@
         precio: 1500,
         imagen: './assets/imgg/mujer/campe2.jpg'
     }
-];*/
+];
